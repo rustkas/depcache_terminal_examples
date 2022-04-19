@@ -68,3 +68,7 @@ Build
 > gen_server:stop(Server, normal, 1).
 
 ```
+
+```
+% get_set_depend_test() ->
+
