@@ -1,2 +1,2 @@
-# depcache_terminal_examples
-Manual tests functionality of depcache API
+# depcache examples
+Manual tests functionality of [depcache](https://github.com/zotonic/depcache) API
