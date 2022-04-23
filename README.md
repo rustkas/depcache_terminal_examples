@@ -155,7 +155,6 @@ f().
                            IncreaseFun(ok)
                    end.
 > 1 = depcache:memo(IncreaserFunX, test_key, Server).
-> 1 = depcache:memo(IncreaserFunX, test_key, Server).
 > ok = depcache:flush(test_key, Server).
 > 2 = depcache:memo(IncreaserFunX, test_key, Server).
 > ok = depcache:flush(Server).
@@ -179,10 +178,5 @@ f().
 > depcache:memo(Fun, test_key, Server).
 > {ok, 1} = depcache:get(test_key1, Server).
 > depcache:get(test_key1, dep, Server).
-```
-
-```
-$ ​rebar3​ as test ​new​ ​proper_statem​ ​depcache
-​$ rebar3 proper -p prop_test
 ```
 
